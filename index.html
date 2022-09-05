@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego del ahorcadito</title>
+	<link rel="stylesheet" href="styles..css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="head-game">
+			<h1 class="title">¡Vamos a jugar!</h1>
+			<button class="btnReload">🔃</button>
+		</div>
+		<div class="frame-game">
+			<div class="palo1"></div>
+			<div class="palo2"></div>
+			<div class="palo3"></div>
+			<div class="palo4"></div>
+			<div class="cabeza body-part"></div>
+			<div class="cuerpo body-part"></div>
+			<div class="brazo1 body-part"></div>
+			<div class="brazo2 body-part"></div>
+			<div class="pierna1 body-part"></div>
+			<div class="pierna2 body-part"></div>
+			<div class="ojo1 body-part">❌</div>
+			<div class="ojo2 body-part">❌</div>
+
+		</div>
+
+		<button type="submit" id="btnStart">¡Empezar Juego!</button>
+		<div class="letras-guion">
+			<p></p>
+		</div>
+		<div class="letraUsuario">
+			<p class="lblText">¡Ingresa una letra!</p>
+			<input type="text" class="txtLetra"/>
+			<button type="submit" class="btnCheck"><span class="redBall">🔴</span></button>
+		</div>
+
+
+	</div>
+	<p id="resultado"></p>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
